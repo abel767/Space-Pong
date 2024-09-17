@@ -1,0 +1,61 @@
+body {
+    background-image: url('assets/Designer2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+.image-right-side {
+    float: right;
+    margin: 20px;
+    z-index: -1;
+}
+
+.menu-box {
+    width: 540px; 
+    height: 220px; 
+    background-color: #141E46;
+    padding: 50px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px #021526; 
+  }
+  
+  .menu-button {
+    width: 100%; 
+    height: 30px; 
+    background-color: #021526; 
+    color: #fff; 
+    border: none; 
+    border-radius: 0; 
+    cursor: pointer; 
+    margin-bottom: 10px; 
+    font-size: 16px; 
+    font-family: 'Press Start 2P', cursive; 
+  }
+  
+  .menu-button:hover {
+    background-color: #555; /* dark gray background on hover */
+    box-shadow: 0 0 5px #000; /* add a pixelated shadow on hover */
+  }
+
+  .music{
+    position: relative;
+    top: 80px;
+    left: 250px;
+    background:#fff;
+    padding: 30px 30px;
+    width: 50px;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+}

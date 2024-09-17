@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Pong</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ 
+ <div class="gamecontainer"> <!--the container of the game-->
+        <canvas class="gameBoard" width="500" height="500"></canvas> <!--the game board-->
+        <div class="scoreText">0 : 0</div> <!--the score-->
+        <button class="reset-btn">Reset</button>  <!--The reset button-->
+    </div>
+
+<audio id="gameMusic" loop>
+    <source src="http://localhost:3000/audio.mp3" type="audio/mp3">
+</audio>
+
+<button onclick="playAudio()">Play Audio</button>
+
+
+
+    <script src="/js/index.js"></script>
+     <script>
+        function playAudio() {
+            const audio = document.getElementById('gameMusic');
+            audio.play();
+        }
+    </script>
+</body>
+</html>
